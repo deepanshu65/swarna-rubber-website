@@ -312,21 +312,23 @@ const SwarnaRubberHomepage = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 px-6 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-12">
-            <div className="text-center">
-              <div className="text-6xl font-bold text-cyan-600 mb-4">2+</div>
-              <p className="text-xl text-gray-700">Years of professional experience</p>
-            </div>
-            <div className="text-center">
-              <div className="text-6xl font-bold text-cyan-600 mb-4">5+</div>
-              <p className="text-xl text-gray-700">Our products are exported to countries</p>
-            </div>
-             <div className="text-center">
-              <div className="text-6xl font-bold text-cyan-600 mb-4">8+</div>
-              <p className="text-xl text-gray-700">Our products are exported to countries</p>
-            </div>
+      <section className="bg-blue-900 text-white py-12">
+          <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-blue-800/50">
+          <div>
+            <div className="text-4xl font-bold mb-1">500+</div>
+            <div className="text-blue-200 text-sm uppercase tracking-wider">Clients Served</div>
+          </div>
+          <div>
+            <div className="text-4xl font-bold mb-1">5M+</div>
+            <div className="text-blue-200 text-sm uppercase tracking-wider">Parts Manufactured</div>
+          </div>
+          <div>
+            <div className="text-4xl font-bold mb-1">5+</div>
+            <div className="text-blue-200 text-sm uppercase tracking-wider">Global Markets</div>
+          </div>
+          <div>
+            <div className="text-4xl font-bold mb-1">ISO</div>
+            <div className="text-blue-200 text-sm uppercase tracking-wider">9001:2015 Certified</div>
           </div>
         </div>
       </section>
