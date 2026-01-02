@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Blogs from './pages/Blogs';
 import SingleBlog from "./pages/SingleBlog";
+import ButylReclaimProductPage from './pages/Butyl Reclaim Rubber';
 import Test from "./pages/test";
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<Blogs/>} />
         <Route path="/blogs/:id" element={<SingleBlog />} />
+        <Route path="/butyl-reclaim-rubber" element={<ButylReclaimProductPage />} />
         <Route path="/test" element={<Test />} />
 
         

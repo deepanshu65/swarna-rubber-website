@@ -1,12 +1,14 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { NavLink } from "react-router-dom";
+import companyLogo from '../../assets/images/SWARNA-RUBBER-LOGO.webp';
 
 const navigation = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Blogs", path: "/blogs" },
-  { name: "Contact", path: "/contact" },
+  
+  {name: "Butyl Reclaim Rubber", path: "/butyl-reclaim-rubber" },
   { name: "Test", path: "/test" },
 ];
 
@@ -21,7 +23,7 @@ const Header = () => {
               {/* Logo */}
               <div className="flex items-center">
                 <NavLink to="/" className="text-xl font-bold text-slate-900">
-                  Swarna<span className="text-cyan-600">Rubber</span>
+                  <img src={companyLogo} alt="Company Logo" className="w-42 h-auto" />
                 </NavLink>
               </div>
 
@@ -36,7 +38,7 @@ const Header = () => {
                       `text-sm font-medium transition ${
                         isActive
                           ? "text-cyan-600 border-b-2 border-cyan-600 pb-1"
-                          : "text-slate-700 hover:text-cyan-600"
+                          : "text-slate-700 hover:text-cyan-600 uppercase font-bold"
                       }`
                     }
                   >
@@ -51,7 +53,7 @@ const Header = () => {
                   to="/contact"
                   className="rounded-lg bg-gradient-to-r from-cyan-600 to-blue-600 px-5 py-2 text-sm font-semibold text-white hover:opacity-90 transition"
                 >
-                  Get Quote
+                  Contact Us
                 </NavLink>
               </div>
 

@@ -74,11 +74,11 @@ function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-cyan-500" />
-              <span>+91 XXXXX XXXXX</span>
+              <span>+91-9876500040</span>
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-cyan-500" />
-              <span>info@swarnarubber.com</span>
+              <span>sales@swarnarubber.com</span>
             </li>
           </ul>
         </div>
@@ -91,8 +91,8 @@ function Footer() {
             © {new Date().getFullYear()} SwarnaRubber. All rights reserved.
           </p>
           <p>
-            Designed & Developed with{" "}
-            <span className="text-cyan-500 font-medium">Quality</span>
+            Designed & Developed By{" "}
+            <span className="text-cyan-500 font-medium">Pinaak Ventures</span>
           </p>
         </div>
       </div>
